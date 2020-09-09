@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1833302384896398}
+  m_IsPrefabAsset: 1
+--- !u!1 &1833302384896398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4081071625769356}
+  - component: {fileID: 114924068276946946}
+  - component: {fileID: 114563431160262874}
+  - component: {fileID: 114282086711058146}
+  - component: {fileID: 114457277018110470}
+  m_Layer: 0
+  m_Name: KeyManagers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4081071625769356
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1833302384896398}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114282086711058146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1833302384896398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66da7cc22b805c418c39301808effe9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114457277018110470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1833302384896398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ed83358283d74448f05af6529c9e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CamMoveFlag: 1
+  LStickRadWorld: 0
+  LStickRadLocal: 0
+  LStickLen: 0
+  LStickVelLocal: {x: 0, y: 0, z: 0}
+  LStickVelWorld: {x: 0, y: 0, z: 0}
+  enterLStick: 0
+  enterLStickUp: 0
+  enterLStickDown: 0
+  enterLStickLeft: 0
+  enterLStickRight: 0
+  RStickRadWorld: 0
+  RStickRadLocal: 0
+  RStickLen: 0
+  RStickVelLocal: {x: 0, y: 0, z: 0}
+  RStickVelWorld: {x: 0, y: 0, z: 0}
+  enterRStick: 0
+  enterRStickUp: 0
+  enterRStickDown: 0
+  enterRStickLeft: 0
+  enterRStickRight: 0
+  L2Axis: 0
+  R2Axis: 0
+  enterL2Axis: 0
+  enterR2Axis: 0
+  enterUP: 0
+  enterDOWN: 0
+  enterLEFT: 0
+  enterRIGHT: 0
+  enterSANKAKU: 0
+  enterMARU: 0
+  enterBATU: 0
+  enterSIKAKU: 0
+  enterL3: 0
+  enterR3: 0
+  enterL2: 0
+  enterR2: 0
+  enterL1: 0
+  enterR1: 0
+  enterOPTION: 0
+  enterSHARE: 0
+  enterPAD: 0
+  enterPS: 0
+  stayUP: 0
+  stayDOWN: 0
+  stayLEFT: 0
+  stayRIGHT: 0
+  staySANKAKU: 0
+  stayMARU: 0
+  stayBATU: 0
+  staySIKAKU: 0
+  stayL3: 0
+  stayR3: 0
+  stayL2: 0
+  stayR2: 0
+  stayL1: 0
+  stayR1: 0
+  stayOPTION: 0
+  staySHARE: 0
+  stayPAD: 0
+  stayPS: 0
+  exitUP: 0
+  exitDOWN: 0
+  exitLEFT: 0
+  exitRIGHT: 0
+  exitSANKAKU: 0
+  exitMARU: 0
+  exitBATU: 0
+  exitSIKAKU: 0
+  exitL3: 0
+  exitR3: 0
+  exitL2: 0
+  exitR2: 0
+  exitL1: 0
+  exitR1: 0
+  exitOPTION: 0
+  exitSHARE: 0
+  exitPAD: 0
+  exitPS: 0
+  anyKeyFlag: 0
+--- !u!114 &114563431160262874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1833302384896398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66d9245897f00245b7708d273ff94e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hard: 0
+  LRRevFlag: 0
+  D2Trans: {fileID: 0}
+--- !u!114 &114924068276946946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1833302384896398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951dd9704f131854e80403ada8f53124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnableIMU: 1
+  EnableLocalize: 1
